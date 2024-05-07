@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spottify - Your Favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spot.png" alt="Spotify">Spottify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songList">
+            <h1>Best of Spottify</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="space song">
+                    <span class="songName">Space Song</span>
+                    <div class="time-play"><span class="timestamp">5:20</span>
+                        <i id="0" class="fa-solid songItemPlay fa-play-circle" style="color: #d1d1d2;"></i>
+                    </div>
+
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="Levitating">
+                    <span class="songName">Levitating</span>
+                    <div class="time-play"><span class="timestamp">3:50</span>
+                        <i id="1" class="fa-solid songItemPlay fa-play-circle" style="color: #d1d1d2;"></i>
+                    </div>
+
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="Space Song">
+                    <span class="songName">Scared to Live</span>
+                    <div class="time-play"><span class="timestamp">3:11</span>
+                        <i id="2" class="fa-solid songItemPlay fa-play-circle" style="color: #d1d1d2;"></i>
+                    </div>
+
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="Space Song">
+                    <span class="songName">Gul</span>
+                    <div class="time-play"><span class="timestamp">3:37</span>
+                        <i id="3" class="fa-solid songItemPlay fa-play-circle" style="color: #d1d1d2;"></i>
+                    </div>
+
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img alt="dil ibaadat">
+                    <span class="songName">Dil ibaadat</span>
+                    <div class="time-play"><span class="timestamp">5:29</span>
+                        <i id="4" class="fa-solid songItemPlay fa-play-circle" style="color: #d1d1d2;"></i>
+                    </div>
+
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProcessBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-sharp fa-3x fa-solid fa-backward-step" id="previous" style="color: #d1d1d2;"></i>
+            <i class="fa-solid fa-3x fa-play-circle" id="masterPlay" style="color: #d1d1d2;"></i>
+            <i class="fa-sharp fa-3x fa-solid fa-forward-step" id="next" style="color: #d1d1d2;"></i>
+        </div>
+        <div class="songinfo">
+            <img src="Nt6v.gif" width="102px" alt="" id="gif"> <span id="masterSongName">Space Song-Beach House</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/fb8a7681dc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
